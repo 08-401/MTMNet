@@ -1,0 +1,27 @@
+
+:==== MTMNet: Multi-task Learning with Minimal Data for Source-free Cross-domain Few-shot Semantic Segmentation =====
+|            benchmark: wbc                     
+|             datapath: F:\\****\\CDFSSDataSet\\Target domains
+|                nshot: 5                       
+|             adapt_to: first-episode           
+|       postprocessing: dynamic                 
+|              logpath: ./logs                  
+|            verbosity: 0                       
+|             backbone: resnet50                
+|              nworker: 0                       
+|                  bsz: 1                       
+|                 fold: 0                       
+:================================================
+
+[Epoch: 00] [Batch: 0001/0600] L: 0.00000  Avg L: 0.00000  mIoU: 93.09  |  FB-IoU: 94.46
+[Epoch: 00] [Batch: 0051/0600] L: 0.00000  Avg L: 0.00000  mIoU: 87.25  |  FB-IoU: 93.97
+[Epoch: 00] [Batch: 0101/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.65  |  FB-IoU: 92.66
+[Epoch: 00] [Batch: 0151/0600] L: 0.00000  Avg L: 0.00000  mIoU: 87.93  |  FB-IoU: 92.53
+[Epoch: 00] [Batch: 0201/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.14  |  FB-IoU: 92.98
+[Epoch: 00] [Batch: 0251/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.01  |  FB-IoU: 92.56
+[Epoch: 00] [Batch: 0301/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.04  |  FB-IoU: 92.62
+[Epoch: 00] [Batch: 0351/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.32  |  FB-IoU: 92.84
+[Epoch: 00] [Batch: 0401/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.97  |  FB-IoU: 92.63
+[Epoch: 00] [Batch: 0451/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.64  |  FB-IoU: 92.41
+[Epoch: 00] [Batch: 0501/0600] L: 0.00000  Avg L: 0.00000  mIoU: 87.30  |  FB-IoU: 91.19
+[Epoch: 00] [Batch: 0551/0600] L: 0.00000  Avg L: 0.00000  mIoU: 88.21  |  FB-IoU: 92.27
